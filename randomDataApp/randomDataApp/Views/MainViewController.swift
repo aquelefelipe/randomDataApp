@@ -12,6 +12,11 @@ class MainViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let manager = Manager()
+        manager.requestUsers { (userModel, error) in
+            
+        }
 
         // Do any additional setup after loading the view.
     }

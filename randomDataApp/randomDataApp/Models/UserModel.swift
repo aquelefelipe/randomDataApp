@@ -38,6 +38,14 @@ class UserModel {
         self.phone = phone
         self.website = website
         
+    }
+    
+    init( _ dictionary: [String: Any]) {
+        self.userId = dictionary["id"] as? Int ?? 0
+        self.name = dictionary["name"] as? String ?? ""
+        self.username = dictionary["username"] as? String ?? ""
+        self.phone = dictionary["phone"] as? String ?? ""
+        self.website = dictionary["website"] as? String ?? ""
         
     }
     

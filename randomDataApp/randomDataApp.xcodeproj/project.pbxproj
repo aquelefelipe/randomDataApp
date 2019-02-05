@@ -15,6 +15,7 @@
 		13CB15832208EEAC0019659D /* randomDataAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CB15822208EEAC0019659D /* randomDataAppUITests.swift */; };
 		13CB15952208EFD00019659D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CB15942208EFD00019659D /* MainViewController.swift */; };
 		13CB15972208F1850019659D /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CB15962208F1850019659D /* UserModel.swift */; };
+		13CB15992208F8B40019659D /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CB15982208F8B40019659D /* Manager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		13CB15842208EEAC0019659D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13CB15942208EFD00019659D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		13CB15962208F1850019659D /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		13CB15982208F8B40019659D /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +158,7 @@
 		13CB15932208EF8B0019659D /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				13CB15982208F8B40019659D /* Manager.swift */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -294,6 +297,7 @@
 				13CB15632208EEA90019659D /* AppDelegate.swift in Sources */,
 				13CB15972208F1850019659D /* UserModel.swift in Sources */,
 				13CB15952208EFD00019659D /* MainViewController.swift in Sources */,
+				13CB15992208F8B40019659D /* Manager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
